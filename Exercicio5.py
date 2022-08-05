@@ -1,0 +1,15 @@
+def inverter(palavra):
+    i = 0
+    invertida = ''
+    while i < len(palavra):
+        if i > 0:
+            invertida += palavra[-i]
+        i += 1
+    invertida += palavra[0]
+    return invertida
+
+pal = input("Digite a palavra ou frase que deseja inverter: ")
+result = inverter(pal)
+print(result)
+
+    
