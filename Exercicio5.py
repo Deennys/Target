@@ -8,8 +8,8 @@ def inverter(palavra):
     invertida += palavra[0]
     return invertida
 
-pal = input("Digite a palavra ou frase que deseja inverter: ")
-result = inverter(pal)
+plvr = input("Digite a palavra ou frase que deseja inverter: ")
+result = inverter(plvr)
 print(result)
 
     
